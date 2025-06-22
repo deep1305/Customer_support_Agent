@@ -1,0 +1,71 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database files (uncomment if they contain sensitive data)
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Data files (if they contain sensitive/large data)
+# Uncomment these if your data/ folder contains sensitive or large files:
+# data/
+# *.csv
+# *.json (if containing sensitive data)
+# *.pkl
+# *.pickle
+
+# Model files (if large)
+# *.model
+# *.pkl
+# models/
+
+# API keys and configuration (if you create config files with secrets)
+# config.py (if it contains secrets)
+# secrets.json
