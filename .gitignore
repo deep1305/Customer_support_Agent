@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+customer_support_agent.egg-info/
 
 # Virtual environments
 .venv
@@ -69,3 +70,7 @@ temp/
 # API keys and configuration (if you create config files with secrets)
 # config.py (if it contains secrets)
 # secrets.json
+
+# UV package manager files
+pyproject.toml
+uv.lock
