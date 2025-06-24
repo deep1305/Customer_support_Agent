@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from config.config_loader import load_config
+from .config_loader import load_config
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 
