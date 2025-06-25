@@ -4,7 +4,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from typing import List, Tuple
 from langchain_core.documents import Document
-from langchain_astradb import AstraDBVectorStore
+from langchain_community.vectorstores import AstraDB as AstraDBVectorStore
 
 # Add the parent directory to Python path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

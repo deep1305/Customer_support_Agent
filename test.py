@@ -1,4 +1,4 @@
-from config.config_loader import load_config
+from utils.config_loader import load_config
 
 config = load_config()
 collection_name = config["astra_db"]["collection_name"]
@@ -21,7 +21,7 @@ from typing import List, Tuple
 from langchain_core.documents import Document
 from langchain_astradb import AstraDBVectorStore
 from utils.model_loader import ModelLoader
-from config.config_loader import load_config
+from utils.config_loader import load_config
 
 class DataIngestion:
     '''
@@ -112,9 +112,9 @@ class DataIngestion:
         """
         Store documents into AstraDB vector store.
         """
-        collection_name=self.config["astra_db"]["collection_name"]
+        collection_name=self.conf["astra_db"]["collection_name"]
         vstore = AstraDBVectorStore(
-            embedding= self.model_loader.load_embeddings(),
+            embedding= self.model_loader.load_embedding_model(),
             collection_name=collection_name,
             api_endpoint=self.db_api_endpoint,
             token=self.db_application_token,
