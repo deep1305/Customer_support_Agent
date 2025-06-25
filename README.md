@@ -1,22 +1,22 @@
-# 🎧 Flipkart Audio Assistant
+# 🛒 Smart Product Advisor
 
-An intelligent audio product specialist chatbot powered by AI, designed to help customers find the perfect headphones, earbuds, and audio accessories. Specializes in audio products from brands like BoAt, OnePlus, Realme, and U&I using natural language processing and vector-based retrieval.
+An intelligent AI-powered shopping assistant chatbot designed to help customers find the perfect headphones, earbuds, and electronic accessories. Specializes in product recommendations from brands like BoAt, OnePlus, Realme, and U&I using natural language processing and vector-based retrieval.
 
 ## ✨ Features
 
 ### 🎯 Core Functionality
-- **Audio Product Search**: Natural language queries for finding headphones, earbuds, and neckbands
-- **Smart Audio Recommendations**: AI-powered suggestions based on bass preferences, sound quality, and budget
-- **Real-time Chat Interface**: Modern, responsive web-based chat interface optimized for audio products
-- **Vector-based Retrieval**: Efficient semantic search using embeddings for audio product features
-- **Audio Review Analysis**: Insights from customer reviews focusing on sound quality, bass, and comfort
+- **Intelligent Product Search**: Natural language queries for finding headphones, earbuds, and neckbands
+- **Smart Recommendations**: AI-powered suggestions based on preferences, quality, and budget
+- **Real-time Chat Interface**: Modern, responsive web-based chat interface for seamless shopping
+- **Vector-based Retrieval**: Efficient semantic search using embeddings for product features
+- **Review Analysis**: Insights from customer reviews focusing on quality, performance, and value
 
 ### 🎨 User Interface
 - **Modern Glassmorphism Design**: Beautiful gradient backgrounds with blur effects
 - **Mobile Responsive**: Optimized for all screen sizes and devices
 - **Smooth Animations**: Enhanced user experience with fluid transitions
 - **Professional Styling**: Flipkart-inspired orange theme with clean typography
-- **Audio-Focused Quick Suggestions**: Pre-defined chips for wireless headphones, wired headsets, Bluetooth neckbands, and budget audio
+- **Smart Quick Suggestions**: Pre-defined chips for wireless headphones, wired headsets, Bluetooth neckbands, and budget electronics
 
 ### 🔧 Technical Features
 - **Smart Data Ingestion**: Prevents duplicate data insertion in vector store
@@ -31,8 +31,8 @@ An intelligent audio product specialist chatbot powered by AI, designed to help 
 Customer_support_Agent/
 ├── config/                     # Configuration files
 │   └── config.yaml
-├── data/                       # Audio product dataset
-│   └── flipkart_product_review.csv  # Audio product reviews (headphones, earbuds, neckbands)
+├── data/                       # Product dataset
+│   └── flipkart_product_review.csv  # Product reviews (headphones, earbuds, neckbands)
 ├── data_collection_pipeline/   # Web scraping modules
 │   └── flipkart_scrapper.py
 ├── data_ingestion/            # Data processing pipeline
@@ -93,12 +93,12 @@ Customer_support_Agent/
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
-6. **Access the audio assistant**
+6. **Access the shopping assistant**
    Open your browser and navigate to `http://localhost:8000`
 
-## 🎵 Available Audio Products
+## 🎵 Available Product Categories
 
-The assistant specializes in the following audio product categories:
+The assistant specializes in the following product categories:
 
 ### 🎧 **Wireless Headphones & Neckbands**
 - **BoAt Rockerz 235v2** - Bluetooth headset with ASAP charging
@@ -127,14 +127,14 @@ The assistant specializes in the following audio product categories:
 - "Best wireless headphones under ₹2000"
 - "I need good headphones with strong bass"
 - "Recommend Bluetooth neckbands for workouts"
-- "Show me budget audio products with good reviews"
+- "Show me budget electronics with good reviews"
 - "OnePlus vs BoAt headphones comparison"
 
-### Audio-Specific Support Features
-- Audio product comparisons (bass, sound quality, battery life)
-- Price range filtering for audio accessories
-- Review-based recommendations focusing on sound quality
-- Brand-specific audio product guidance (BoAt, OnePlus, Realme, U&I)
+### Smart Support Features
+- Product comparisons (bass, sound quality, battery life)
+- Price range filtering for electronics
+- Review-based recommendations focusing on quality and performance
+- Brand-specific product guidance (BoAt, OnePlus, Realme, U&I)
 
 ## 🛠️ Development
 
