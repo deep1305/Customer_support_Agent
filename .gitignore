@@ -40,11 +40,6 @@ Thumbs.db
 *.p12
 *.pfx
 
-# Database files (uncomment if they contain sensitive data)
-# *.db
-# *.sqlite
-# *.sqlite3
-
 # Log files
 *.log
 logs/
