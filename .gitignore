@@ -54,23 +54,6 @@ tmp/
 temp/
 *.tmp
 
-# Data files (if they contain sensitive/large data)
-# Uncomment these if your data/ folder contains sensitive or large files:
-# data/
-# *.csv
-# *.json (if containing sensitive data)
-# *.pkl
-# *.pickle
-
-# Model files (if large)
-# *.model
-# *.pkl
-# models/
-
-# API keys and configuration (if you create config files with secrets)
-# config.py (if it contains secrets)
-# secrets.json
-
 # UV package manager files
 pyproject.toml
 uv.lock
