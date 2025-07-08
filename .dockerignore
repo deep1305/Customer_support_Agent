@@ -1,0 +1,45 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Development
+.pytest_cache
+.coverage
+.tox
+*.egg-info/
+uv.lock
+.python-version
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+*.txt
+*.docx
+
+# Notebooks
+notebook/
+*.ipynb
+
+# Logs
+*.log 
