@@ -32,10 +32,10 @@ uv.lock
 .DS_Store
 Thumbs.db
 
-# Documentation
+# Documentation (exclude specific files, not all .txt)
 *.md
-*.txt
 *.docx
+github_actions_workflow_explanation.txt
 
 # Notebooks
 notebook/
