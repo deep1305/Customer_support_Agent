@@ -56,3 +56,6 @@ uv.lock
 # Old data ingestion files (replaced by ingestion_pipeline.py)
 data_ingestion/data_ingest.py
 data_ingestion/data_transform.py
+
+# Documentation files (keep local only)
+github_actions_workflow_explanation.txt
