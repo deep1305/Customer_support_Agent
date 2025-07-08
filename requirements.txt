@@ -12,4 +12,5 @@ langchain_groq
 langchain_openai
 PyYAML
 
--e .
+#-e .
+
